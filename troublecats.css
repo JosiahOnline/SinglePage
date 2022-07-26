@@ -5047,10 +5047,10 @@ h3 {
 
 .scrolling-video {
   display: block;
-  width: 70%;
-  max-width: 1279px;
-  margin-right: 15vw;
-  margin-left: 15vw;
+  width: 100%;
+  max-width: 90vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
   -webkit-box-pack: center;
@@ -5397,11 +5397,11 @@ h3 {
     linear,
     left top,
     left bottom,
-    from(#ff7448),
+    from(#00c5ff),
     color-stop(51%, #ff4848),
-    to(#6248ff)
+    to(#def50d)
   );
-  background-image: linear-gradient(180deg, #ff7448, #ff4848 51%, #6248ff);
+  background-image: linear-gradient(180deg, #00c5ff, #ff4848 51%, #def50d);
 }
 
 .margin-bottom-medium {
@@ -7145,7 +7145,7 @@ h3 {
 }
 
 .thestreet.background-color-black {
-  margin-top: 4.8rem;
+  margin-top: 6rem;
 }
 
 .degens {
@@ -7198,7 +7198,7 @@ h3 {
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 53px;
+  padding-left: 40px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -9230,7 +9230,6 @@ h3 {
   }
 
   .holder-block {
-    width: 70%;
     max-height: 320px;
     min-height: 320px;
   }
@@ -10080,8 +10079,6 @@ h3 {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin-right: 0vw;
-    margin-left: 0vw;
     padding: 20px 10px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -11622,12 +11619,12 @@ h3 {
   text-decoration: none;
 } */
 .brand {
-  flex: 1;
+  flex: 0.8;
 }
 .image-logo {
   margin: 0 15px;
   display: block;
-  width: auto;
+  width: 60%;
   height: auto;
   max-height: 100%;
   background-image: url("./images/icon/wild goat gang.png");
@@ -11678,10 +11675,22 @@ h3 {
   background-size: 30px 30px;
   background-repeat: no-repeat;
 }
+.buy {
+  margin: 0 15px;
+  padding: 0px 30px;
+  background-color: transparent;
+  background-image: url("./images/icon/buy2.png");
+  background-position: 50% 50%;
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 767px) {
   .topnav {
     flex: 1;
+  }
+  .image-logo {
+    width: 50%;
   }
 }
 
@@ -11705,7 +11714,7 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 20px 0 10px;
+    padding: 20px 0;
   }
   
   /* .topnav.responsive .icon {
